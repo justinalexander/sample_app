@@ -26,7 +26,7 @@ gem 'rails', '3.2.6'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development do
-  gem 'rspec-rails', '2.0.0.beta.18'
+  gem 'rspec-rails'
   gem 'sqlite3', '1.3.5'
 end
 
@@ -36,5 +36,5 @@ group :assests do
   gem 'uglifier', '>= 1.2.3'
 end
 group :test do
-  gem 'rspec-rails', '2.0.0.beta.18'
+  gem 'rspec-rails'
 end
