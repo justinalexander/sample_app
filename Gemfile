@@ -1,11 +1,10 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.15'
+gem 'rails', '3.2.6'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -28,6 +27,7 @@ gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 # and rake tasks are available in development mode:
 group :development do
   gem 'rspec-rails', '2.0.0.beta.18'
+  gem 'sqlite3', '1.3.5'
 end
 
 group :test do
