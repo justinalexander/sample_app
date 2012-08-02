@@ -28,6 +28,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 group :development, :test do
   gem 'rspec-rails', '2.10.0'
   gem 'sqlite3', '1.3.5'
+  gem 'capybara', '1.1.2'
 end
 
 group :assests do
