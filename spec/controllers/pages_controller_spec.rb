@@ -4,18 +4,16 @@ describe PagesController do
 
   render_views
   
-  include Capybara::DSL
-  
   describe "GET 'home'" do
     it "returns http success" do
       get 'home'
       response.should be_success
     end
     
-    it "should have the right title" do
-      visit 'home'
-      page.should have_selector("title", :text => "Home")
-    end
+   it "should have the right title" do
+      get 'home'
+        page.should have_selector('title', :content => "Home")
+   end
   end
 
   describe "GET 'contact'" do
