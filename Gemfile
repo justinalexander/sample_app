@@ -19,7 +19,7 @@ gem 'rails', '3.2.6'
 # Bundle the extra gems:
 # gem 'bj'
 # gem 'nokogiri'
-# gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 
 # Bundle gems for the local environment. Make sure to
@@ -27,7 +27,7 @@ gem 'rails', '3.2.6'
 # and rake tasks are available in development mode:
 group :development do
   gem 'rspec-rails'
-  gem 'sqlite3', '1.3.5'
+  gem 'sqlite3'
 end
 
 group :assests do
