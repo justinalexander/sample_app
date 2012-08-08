@@ -1,10 +1,12 @@
-.bundle
-db/*.sqlite3*
+/.bundle
+/db/*.sqlite3*
 log/*.log
-tmp/**/*
-tmp/*
-doc/api
+/tmp
+tmp
+doc/
 doc/app
 *.swp
 *~
 .DS_Store
+.project
+bundler_stubs/
